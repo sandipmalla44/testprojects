@@ -1,0 +1,75 @@
+
+.card-block {
+    padding: 10px;
+}
+.card-sell {
+    height: 300px;
+    background-color: orange;
+}
+
+.card-buy {
+    height: 300px;
+    background-color: rgb(23, 211, 23);
+}
+
+.fill-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.col-sell-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    text-shadow: 2px 2px 3px yellow, 3px 3px 5px red;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    transition: all 150ms ease-in-out;
+}
+
+.btn-size {
+    width: 120px;
+    height: 120px;   
+    border-radius: 65px; 
+    font-size: 24px;
+    border-width: 5px;
+}
+.btn-circle {
+    padding: 6px 0px;
+    text-align: center;
+    border-color: white;
+    background-color: red;
+    transition: all 150ms ease-in-out;
+}
+
+.btn-circle:hover {
+    transform: scale(1.05);
+    border-width: 0px;
+}
+
+@media all and (min-width: 767px) and (max-width: 992px) {
+    .btn-size {
+        width: 80px;
+        height: 80px;
+        border-radius: 65px;
+        font-size: 18px;
+        border-width: 5px;
+    }
+}
+
+/* @media all and (max-width: 767px) {
+    .btn-size {
+        width: 40px;
+        height: 40px;   
+        border-radius: 35px; 
+        font-size: 24px;
+        border-width: 5px;
+    }
+} */
